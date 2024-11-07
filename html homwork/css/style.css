@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-left img {
+    width: 30px;
+}
+
+.nav-center {
+    display: flex;
+
+}
+
+.nav-center ul{
+    display: flex;
+}
+
+.nav-center ul li{
+    list-style: none;
+    margin: 10px;
+}
+
+.nav-center ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+.nav-right {
+    display: flex;
+    margin: 10px;
+}
+.nav-right i {
+    margin: 10px;
+}
+
+.banner {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+.banner-2 {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.collection {
+    border-left: 2px solid red;
+    margin: 30px 40%;
+    display: flex;
+}
+
+.collection label {
+    padding-left: 10px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.special {
+    border-left: 2px solid red;
+    margin: 30px 40%;
+    display: flex;
+}
+.special label {
+    padding-left: 10px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+main ul {
+    display: flex;
+    justify-content: center;
+}
+
+main ul li{
+    border: 1px solid black ;
+    border-radius: 10px;
+    margin: 10px;
+    list-style: none;
+}
+
+main ul li a {
+    text-decoration: none;
+    padding: 20px;
+}
+
+.main-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-card .card {
+    margin: 10px;
+}
+.main-card .card img {
+    width:250px;
+}
+
+.main-card p {
+    text-align: center;
+}
+.main-card-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-card-2 .card {
+    margin: 10px;
+}
+.main-card-2 .card img {
+    width:250px;
+}
+
+.main-card-2 p {
+    text-align: center;
+}
+.main-card-2 button {
+    padding: 8px;
+    border-radius: 15px;
+    margin-left: 85px;
+    border: 1px solid;
+    margin-top: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    padding: 10px;
+    margin-top: 5rem;
+}
+
+footer .attire {
+    display: flex;
+    flex-direction: column;
+}   
+
+footer .link {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .link li {
+    list-style: none;
+    color: black;
+}
+
+footer label {
+    font-size: large;
+    font-weight: bold;
+}
+footer .link div {
+    display: flex;
+}
+
+footer .link div i {
+    margin-right: 10px;
+}
+
+
+
